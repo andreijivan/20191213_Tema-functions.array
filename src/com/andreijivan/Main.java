@@ -15,7 +15,7 @@ public class Main {
 		SalesRepresentative salesGuy3 = new SalesRepresentative("Sales guy 3", 2, 200);
 		SalesRepresentative salesGuy4 = new SalesRepresentative("Sales guy 4", 12, 100);
 		SalesRepresentative salesGuy5 = new SalesRepresentative("Sales guy 5", 6, 600);
-
+		System.out.println("bau");
 		SalesRepresentative[] reps = {salesGuy1, salesGuy2, salesGuy3, salesGuy4, salesGuy5};
 		for (SalesRepresentative rep : reps) {
 			System.out.println(rep.toString() + " total: " + rep.totalSales());
